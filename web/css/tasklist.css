@@ -1,0 +1,92 @@
+*{
+box-sizing: border-box;
+}
+
+
+
+.contact{
+  background:Azure;
+  width: 300px;
+  height: 200px;
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content:space-around;
+  overflow: wrap;
+  border: 2px solid #333333;
+}
+
+.contact h2, p{
+  margin:1ex;
+  line-height:2ex;
+  display:block;
+}
+
+
+
+.contactLogoContainer {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.contactLogo{
+    max-width: 20%;
+    max-height: 50px;
+    margin: 0 4px 0 0;
+    display: block;
+}
+
+.contactLogoText{
+  width: auto;
+  max-width: 80%;
+  position:relative;
+}
+
+.contactLogoText h3{
+  margin: 8px 0;
+  font-size: 100%;
+  line-height:50%;
+  display: block;
+}
+
+.contactLogoText p{
+  margin: 12px 0;
+  font-size: 95%;
+  line-height:40%;
+  font-style:italic;
+  display: block;
+}
+
+.autoH:after{
+content:".";
+display:block;
+clear:both;
+visibility:hidden;
+}	
+
+.shadow2{
+  box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.25), 0 3px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 4px rgba(0, 0, 0, 0.12)
+}
+
+.shadow4, .shadow4h:hover, .shadow4a:active{
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.25), 0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 5px rgba(0, 0, 0, 0.12);
+}
+
+.shadow6, .shadow6h:hover, .shadow6a:active{
+  box-shadow: 3px 3px 9px 0 rgba(0, 0, 0, 0.25), 0 8px 10px 0 rgba(0, 0, 0, 0.14), 0 6px 10px 9px rgba(0, 0, 0, 0.12);
+}
+
+.shadow8, .shadow8h:hover, .shadow8a:active{
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25), 0 11px 17px 2px rgba(0, 0, 0, 0.14), 0 8px 10px 14px rgba(0, 0, 0, 0.12);
+}
+
+.shadow10, .shadow10h:hover, .shadow10a:active{
+  box-shadow: 5px 5px 11px 0 rgba(0, 0, 0, 0.25), 0 14px 26px 4px rgba(0, 0, 0, 0.14), 0 10px 20px 20px rgba(0, 0, 0, 0.12);
+}
+
+.shadow12, .shadow12h:hover, .shadow12a:active{
+  box-shadow: 6px 6px 12px 0 rgba(0, 0, 0, 0.25), 0 17px 37px 6px rgba(0, 0, 0, 0.14), 0 12px 20px 27px rgba(0, 0, 0, 0.12);
+}
